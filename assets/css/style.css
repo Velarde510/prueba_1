@@ -12,10 +12,10 @@ body * {
 }
 
 header {
-  background-image: url('../img/portada.jpg');
+  background-image: url('../img/noruega1.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: bottom;
+  background-position: center;
   padding-bottom: 10rem;
   margin-bottom: 10px;
 }
@@ -36,4 +36,23 @@ header {
   font-family: 'Gelasio', serif;
   font-weight: 500;
   margin: 10%, 0, 10%, 0;
+}
+
+h2 {
+  font-family: 'Gelasio', serif;
+  font-weight: 400i;
+}
+
+h5 {
+  font-family: 'Gelasio', serif;
+}
+
+.about {
+  padding: 10%, 2%, 10%, 2%;
+}
+
+.seccion-viajes{
+  padding-top: 7%;
+  padding-bottom: 7%;
+  background-color: #48799C;
 }

@@ -51,9 +51,9 @@
 
   <header class="hero text-light text-right pt-5 mt-5">
     <div class="container">
-        <h1 class="font-weight-bold my-5 titulo1">Rodrigo Velarde</h1>
+        <h1 class="font-weight-bold my-5 text-left titulo1">Rodrigo Velarde</h1>
         <hr></hr>
-        <h1 class="my-5 titulo2">Bloggero de viajes</h1>
+        <h1 class="my-5 text-left titulo2">Bloggero de viajes</h1>
     </div>
   </header>
 
@@ -71,7 +71,7 @@
 			</div>
 	</section>  -->
 
-  <section id="about" class="container text-center my-5">
+  <section id="about" class="container text-center my-5 about">
     <h2 class="display-3 font-weight-bold my-4">Acerca de mí</h2>
     <p class="my-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 
@@ -94,7 +94,8 @@
     </div>
   </section>
 
-  <section class="container-fluid my-5 p-5 bg-primary" id="viajes">
+
+  <section class="container-fluid my-5 p-5 bg-dark seccion-viajes" id="viajes">
       <h2 class="display-4 text-center font-weight-bold text-light mb-3">Mis viajes</h2>
       <div class="card-deck">
         <div class="card">
@@ -102,7 +103,7 @@
           <div class="card-body">
             <h5 class="card-title">Copenhague, Dinamarca</h5>
             <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo iure sint, perspiciatis distinctio molestias nihil repudiandae neque rem adipisci repellendus libero illo quo blanditiis, velit quasi ad, recusandae voluptates officia.</p>
-            <button type="button" class="btn btn-outline-info" data-toggle="modal" data-target="#copenhague">Ver más</button>
+            <button type="button" class="btn btn-outline-info" data-toggle="modal" data-target="#copenaghe">Ver más</button>
           </div>
         </div>
         <div class="card">
@@ -123,6 +124,75 @@
         </div>
       </div>
     </section>
+
+    <div class="modal fade" id="copenaghe" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">París, Francia</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img class="img-fluid mb-3" src="assets/img/card-2.jpg" alt="Card image cap">
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  <div class="modal fade" id="paris" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">París, Francia</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <img class="img-fluid mb-3" src="assets/img/card-2.jpg" alt="Card image cap">
+
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="sevilla" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Copenhague, Dinamarca</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <img class="img-fluid mb-3" src="assets/img/card-3.jpg" alt="Card image cap">
+
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
 <!--  <section class="container-fluid display" class="trabajos">
 		<div class="row row-cols-6 row-cols-md-6">
@@ -145,14 +215,14 @@
 		</div>
   </section>  -->
 
-<section id="fotos" class="containter">
+<section id="fotos" class="containter-fluid">
   <h2 class="display-3 font-weight-bold">Mis Fotos</h2>
  <div class="row col-xs-12 col-md-6 col-lg-4">
      <div class="col mb-4">
        <div class="card">
-        <img src="assets/img/noruega1.jpg" class="card-img-top" alt="Foto de Oslo">
+        <img src="assets/img/fotos/alesund_noruega.jpg" class="card-img-top" alt="Foto de Alesund">
        <div class="card-body">
-        <h5 class="card-title">Oslo, Noruega</h5>
+        <h5 class="card-title">Alesund, Noruega</h5>
        </div>
       </div>
    </div>
@@ -160,9 +230,9 @@
  <div class="row col-xs-12 col-md-6 col-lg-4">
      <div class="col mb-4">
        <div class="card">
-        <img src="assets/img/noruega1.jpg" class="card-img-top" alt="Foto de Oslo">
+        <img src="assets/img/fotos/copenaghe_dinamarca.jpg" class="card-img-top" alt="Foto de Dinamarca">
        <div class="card-body">
-        <h5 class="card-title">Oslo, Noruega</h5>
+        <h5 class="card-title">Copenaghe, Dinamarca</h5>
        </div>
       </div>
    </div>
@@ -170,9 +240,9 @@
  <div class="row col-xs-12 col-md-6 col-lg-4">
      <div class="col mb-4">
        <div class="card">
-        <img src="assets/img/noruega1.jpg" class="card-img-top" alt="Foto de Oslo">
+        <img src="assets/img/fotos/granada_espana.jpg" class="card-img-top" alt="Foto de Granada">
        <div class="card-body">
-        <h5 class="card-title">Oslo, Noruega</h5>
+        <h5 class="card-title">Granada, España</h5>
        </div>
       </div>
    </div>
@@ -180,9 +250,9 @@
  <div class="row col-xs-12 col-md-6 col-lg-4">
      <div class="col mb-4">
        <div class="card">
-        <img src="assets/img/noruega1.jpg" class="card-img-top" alt="Foto de Oslo">
+        <img src="assets/img/fotos/paris_francia.jpg" class="card-img-top" alt="Foto de Paris">
        <div class="card-body">
-        <h5 class="card-title">Oslo, Noruega</h5>
+        <h5 class="card-title">París, Francia</h5>
        </div>
       </div>
    </div>
@@ -190,9 +260,9 @@
  <div class="row col-xs-12 col-md-6 col-lg-4">
      <div class="col mb-4">
        <div class="card">
-        <img src="assets/img/noruega1.jpg" class="card-img-top" alt="Foto de Oslo">
+        <img src="assets/img/fotos/paris_francia2.jpg" class="card-img-top" alt="Foto de Paris parque">
        <div class="card-body">
-        <h5 class="card-title">Oslo, Noruega</h5>
+        <h5 class="card-title">París, Francia</h5>
        </div>
       </div>
    </div>
@@ -200,19 +270,17 @@
  <div class="row col-xs-12 col-md-6 col-lg-4">
      <div class="col mb-4">
        <div class="card">
-        <img src="assets/img/noruega1.jpg" class="card-img-top" alt="Foto de Oslo">
+        <img src="assets/img/fotos/kent_inglaterra.jpg" class="card-img-top" alt="Foto de Kent">
        <div class="card-body">
-        <h5 class="card-title">Oslo, Noruega</h5>
+        <h5 class="card-title">Kent, Inglaterra</h5>
        </div>
       </div>
    </div>
  </div>
 </section>
 
-  <section id="contact" class="container my-5">
-    <h2 class="display-3 font-weight-bold text-center my-4">Contáctame</h2>
-    <p class="text-center my-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-    <div class="typeform-widget" data-url="https://franibe.typeform.com/to/AYVtoJ" style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script> <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"> powered by <a href="https://admin.typeform.com/signup?utm_campaign=AYVtoJ&utm_source=typeform.com-13260463-Basic&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=EN" style="color: #999" target="_blank">Typeform</a> </div>
+  <section id="contact" class="container lg-12">
+   <div class="typeform-widget" data-url="https://rodrigovelarde.typeform.com/to/AOwQgz" style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script> <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"> powered by <a href="https://admin.typeform.com/signup?utm_campaign=AOwQgz&utm_source=typeform.com-15273714-Free&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=ES" style="color: #999" target="_blank">Typeform</a> </div>
   </section>
 
 	<footer class="bg-dark text-center text-light text-white p-3">
